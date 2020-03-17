@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # lvyou
 
 > A Vue.js project
@@ -16,3 +17,6 @@ npm run build
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# TourismWebApp
+>>>>>>> 3b352ca44db695902b9c0021d0d5f579ba28bd8e

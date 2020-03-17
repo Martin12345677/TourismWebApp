@@ -1,0 +1,43 @@
+{
+  "name": "lvyou",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "Martin",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "vue": "^2.5.11",
+    "vue-baidu-map": "^0.21.22"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "axios": "0.19.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cors": "2.8.5",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "distpicker": "2.0.5",
+    "file-loader": "^1.1.4",
+    "fs": "0.0.1-security",
+    "jquery": "^3.4.1",
+    "nodemailer": "6.3.1",
+    "place": "1.2.1",
+    "vue-loader": "^13.0.5",
+    "vue-router": "3.1.3",
+    "vue-template-compiler": "^2.4.4",
+    "vuex": "3.1.1",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}

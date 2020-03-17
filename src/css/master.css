@@ -1,0 +1,119 @@
+
+.wjxhome__btn{
+    margin: 19px 0 0 15px;
+}
+.wjxhome__btn li{
+    float: left;
+    margin-left: 10px;
+}
+.wjxhome__btn a{
+    font-size: 18px;
+    color: #ff941a;
+    border-radius:16px;
+    display: block;
+    width: 85px;
+    *width: 66px;
+    line-height: 35px;
+    text-align: center;
+}
+.wjxhome__btn a.transitionnew
+{
+    width:134px;
+    padding:0 18px 0 18px;
+}
+.btn_frame a:hover{
+    background-color: #ff941a;
+    color: #fff;
+}
+.wjxhome__btn .btn_solid a,
+.wjxhome__btn a.transitionnew
+{
+    background-color: #ff941a;
+    color: #fff;
+
+}
+.wjxhome__btn .btn_solid a
+{
+width: 82px;
+}
+.btn_solid a:hover,
+.wjxhome__btn a.transitionnew:hover
+{
+    border: 1px solid #ff7f00;
+    background-color: #ff7f00;
+}
+
+
+/*
+过渡效果
+*/
+.btn,
+.transition{
+    transition: all 0.3s ease 0s;
+    /* Firefox 4 */
+    -moz-transition: all 0.3s ease 0s;
+    /* Safari and Chrome */
+    -webkit-transition: all 0.3s ease 0s;
+    /* Opera */
+    -o-transition: all 0.3s ease 0s;
+}
+
+/*
+banner
+*/
+.wjxhome__banner{
+    position: relative;
+    text-align: center;
+    margin-top: 17vw;
+    user-select: none;
+}
+.wjxhome__banner h1{
+    position: relative;
+    z-index: 3;
+    font-size: 60px;
+    color: #dbdbdb;
+}
+.wjxhome__banner .h2{
+    font-size: 30px;
+    color: #fff;
+    margin: 20px 0 40px 0;
+}
+.wjxhome__banner .h2 em{
+    color: #ff9300;
+}
+.wjxhome__banner .btn_free{
+    font-size: 22px;
+    padding: 0 46px;
+    line-height: 50px;
+    border-radius: 25px;
+    border: none;
+    background: #ff941a;
+    color: #fff;
+}
+.wjxhome__banner .btn_free:hover{
+    background: #ff7f00;
+}
+.wjxhome__banner--word {
+    position: relative;
+    margin: 0 auto;
+}
+
+/*
+按键样式
+*/
+.btn-solid{
+    font-size: 16px;
+    color: #fff;
+    padding: 0 23px;
+    line-height: 44px;
+    border: none;
+    border-radius: 6px;
+}
+.btn_orange{
+    background-color: #ff941a;
+}
+.btn_orange:hover{
+    background-color: #ff7f00;
+    color: #fff;
+}
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      河山大好，出去走走
+    </title>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand" />
+    <meta http-equiv="Cache-Control" content="max-age=300" />
+    <!-- <meta http-equiv="Cache-Control" content="no-siteapp" /> -->
+    <style>
+    body
+      {
+        background: url('http://pic.netbian.com/uploads/allimg/191121/224644-1574347604d36e.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        margin: 0;
+      }
+    </style>
+    <!-- <link rel="stylesheet" type="text/css" href="./src/css/default.css" /> -->
+    <!-- <link id="ctl00_hrefMobile" rel="alternate" media="only screen and(max-width: 640px)" href="https://www.wjx.cn/mobile/index.aspx" /><link id="ctl00_hrefCanonical" rel="canonical" href="https://www.wjx.cn/" /><meta name="applicable-device" content="pc" />   -->
+    </head>
+  <body id="body">
+    <div id="app"></div>
+  </body>
+  
+  <script src="/dist/build.js" async></script>
+  <script src="http://api.map.baidu.com/api?v=2.0&ak=WwVvAITlTumkVb5IB6R0yxcGPhhhfoj0&callback=initialize" async></script>
+  <script>
+    window.onload = ()=>{
+      var t = performance.timing;
+      console.log('白屏时间:' + (t.responseStart - t.navigationStart));
+      console.log('首屏时间：'+ (t.domInteractive - t.navigationStart));
+      // console.log('首资源下载时间：' + (t.re));
+      console.log('总资源加载时间：' + (t.responseStart - t.requestStart));
+      console.log('用户可操作时间：' + (t.domContentLoadedEventEnd - t.navigationStart))
+      console.log('总时间:' + (t.domContentLoadedEventEnd - t.requestStart));
+    }
+  </script>
+
+</html>

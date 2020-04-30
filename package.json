@@ -30,7 +30,7 @@
     "distpicker": "2.0.5",
     "file-loader": "^1.1.4",
     "fs": "0.0.1-security",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "nodemailer": "6.3.1",
     "place": "1.2.1",
     "vue-loader": "^13.0.5",

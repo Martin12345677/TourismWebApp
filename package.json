@@ -31,7 +31,7 @@
     "file-loader": "^1.1.4",
     "fs": "0.0.1-security",
     "jquery": "^3.4.1",
-    "nodemailer": "6.3.1",
+    "nodemailer": "6.4.16",
     "place": "1.2.1",
     "vue-loader": "^13.0.5",
     "vue-router": "3.1.3",
